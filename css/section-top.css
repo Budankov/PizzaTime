@@ -9,7 +9,7 @@
 	align-items: center;
 	text-align: center;
 	position: relative;
-	padding: 100px 0;
+	padding: 170px 0 100px;
 }
 
 .section-top::before {
@@ -42,7 +42,13 @@
 	margin: 0 0 35px;
 }
 
-@media (max-widht: 576px) {
+@media (max-width: 576px) {
+	.section-top {
+		padding-top: 150px;
+	}
+}
+
+@media (max-width: 576px) {
 	.section-top__info {
 		font-size: 18px;
 	}
@@ -51,7 +57,7 @@
 	}
 }
 
-@media (max-widht: 360px) {
+@media (max-width: 360px) {
 	.section-top__title {
 		font-size: 34px;
 	}
